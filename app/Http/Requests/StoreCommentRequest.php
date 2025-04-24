@@ -21,6 +21,7 @@ class StoreCommentRequest extends FormRequest
      */
     public function rules(): array
     {
+        
         return [
             
             "comment"=> "required|max:225",
