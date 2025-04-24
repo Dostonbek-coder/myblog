@@ -21,6 +21,7 @@ class NewFollowerNotification extends Notification
     }
 
     /**
+     * 
      * Get the notification's delivery channels.
      *
      * @return array<int, string>
