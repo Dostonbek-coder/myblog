@@ -10,6 +10,7 @@
             <p class="text-lg text-gray-500 mb-8">Please <a class="text-indigo-500 hover:text-indigo-700 underline"
                 href="{{route('loginForm')}}">Log in</a> or <a class="text-indigo-500 hover:text-indigo-700 underline"
                 href="{{route('registerForm')}}">Sign up</a> to view all posts.</p>
+                
             </div>
         </main>
     @else
