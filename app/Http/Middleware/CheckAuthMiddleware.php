@@ -22,6 +22,7 @@ class CheckAuthMiddleware
         }
     
         return $next($request);
+        
     }
     
 }
