@@ -38,5 +38,6 @@ class UpdateProfileRequest extends FormRequest
             'new_password' => 'nullable',
             'avatar' => 'mimes:png,jpg|max:2048',
         ];
+        
     }
 }
