@@ -55,4 +55,5 @@ class NewCommentNotification extends Notification
             'post_id' => $this->post->id,
         ];
     }
+    
 }
