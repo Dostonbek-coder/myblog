@@ -29,5 +29,6 @@ class RegisterRequest extends FormRequest
             'password' => 'required|min:6',
             'avatar' => 'required|mimes:png,jpg,jpeg|max:2048',
         ];
+
     }
 }
