@@ -33,4 +33,5 @@ Route::middleware('checkAuth')->group(function () {
 
 Route::resource( '/posts', PostController::class);
 Route::get('/posts', [PostController::class,'index'])->name('posts.index');
+
 Route::get('/posts/{post}', [PostController::class,'show'])->name('posts.show');
