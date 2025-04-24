@@ -30,6 +30,7 @@ class CommentController extends Controller
 
     public function destroy(string $id)
     {
+        
         $comment = Comment::findOrFail($id);
         if(Auth::id() !== $comment->user_id){
             abort(403);
